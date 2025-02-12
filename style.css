@@ -1,0 +1,53 @@
+/* The used font: Roboto */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Roboto, sans-serif;
+}
+
+.header {
+    display: flex;
+    background-color: #1F2937;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 16px;
+}
+
+/* Header links, and decorations */
+.header-links {
+    list-style: none;
+}
+
+.header-links li {
+    display: inline-block;
+    padding: 0px 10px;
+}
+
+.header-links li a {
+    color: #F9FAF8;
+}
+
+.logo {
+    margin: 30px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #F9FAF8;
+}
+
+a {
+    text-decoration: none;
+}
+
+.hero {
+
+}
+
+.footer {
+
+}

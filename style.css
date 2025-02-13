@@ -92,3 +92,51 @@ a {
     height: 200px;
     margin-left: auto;
 }
+
+/* Informations section */
+.info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 6em;
+    background-color: #E5E7EB;
+}
+
+.info header {
+    display: flex;
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 900;
+    margin: 1em;
+}
+
+.items {
+    display: flex;
+    justify-content: center;
+    height: 18em;
+    background-color: #E5E7EB;
+    color: #1F2937;
+}
+
+.items-box {
+    display: block;
+    margin: 0 1.5em;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 250px;
+}
+
+.box {
+    width: 150px;
+    height: 150px;
+    border-radius: 15%;
+    border: 3px solid #3882F6;
+    margin: 0 auto;
+}
+
+.items span {
+    display: block;
+    text-align: center;
+    margin: 1em 0;
+}
